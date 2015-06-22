@@ -14,3 +14,41 @@
 
 
 Thanks to [@shayden](https://github.com/shayden) for the csv dump. Buyer beware, caveat emptor, carthago delenda est et al
+
+
+
+Collections To Create
+
+Employees
+* Has Territories []
+
+Customers
+* Has Order []
+
+
+Orders
+* Has Order-Details []
+* Has Customers []
+* Has Employees []
+* Has ShipperID "ShipVia"
+
+
+Order-Details
+* Has OrderID
+* Has ProductID
+
+
+
+Products
+* Has SupplierID
+* Has CategoryID
+
+
+Territories
+* Has RegionID
+
+
+
+
+
+
