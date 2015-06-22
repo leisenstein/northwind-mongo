@@ -28,8 +28,8 @@ Customers
 
 Orders
 * Has Order-Details []
-* Has Customers []
-* Has Employees []
+* Has CustomerID
+* Has EmployeeID
 * Has ShipperID "ShipVia"
 
 
