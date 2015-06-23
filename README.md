@@ -17,34 +17,33 @@ Thanks to [@shayden](https://github.com/shayden) for the csv dump. Buyer beware,
 
 
 
-Collections To Create
+## Collections To Create
 
-Employees
+### Employees
 * Has Territories []
 
-Customers
+### Customers
 * Has Order []
 
 
-Orders
+### Orders
 * Has Order-Details []
 * Has CustomerID
 * Has EmployeeID
 * Has ShipperID "ShipVia"
 
 
-Order-Details
+### Order-Details
 * Has OrderID
 * Has ProductID
 
 
-
-Products
+### Products
 * Has SupplierID
 * Has CategoryID
 
 
-Territories
+### Territories
 * Has RegionID
 
 
